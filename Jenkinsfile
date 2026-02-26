@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        buildNumber = "${build_Number}"
+        buildNumber = "${BUILD_NUMBER}"
     }
 
     stages {
