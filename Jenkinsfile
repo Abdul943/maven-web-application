@@ -37,7 +37,8 @@ pipeline {
 
         stage('Remove Docker Image Locally In Jenkins') {
             steps {
-                sh "docker rmi abdul1992/login-service:${BUILD_NUMBER}"
+                // Ignore error if image does not exist locally
+                sh "docker rmi abdul1992/login-service:${BUILD_NUMBER} || true"
             }
         }
     }
