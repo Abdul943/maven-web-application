@@ -5,10 +5,6 @@ pipeline {
         maven 'Maven_3.9.9'
     }
 
-    environment {
-        buildNumber = "${BUILD_NUMBER}"
-    }
-
     stages {
 
         stage('Git Checkout') {
@@ -26,23 +22,22 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh "docker build -t abdul1992/login-service:${Build_Number} ."
+                sh "docker build -t abdul1992/login-service:${BUILD_NUMBER} ."
             }
         }
 
         stage('Push Docker Image to DockerHub Repository') {
             steps {
-                withCredentials([string(credentialsId: 'Docker_Hub_Password', variable: 'Docker_Hub_Password')]) {
-                    sh "docker login -u abdul1992 -p ${Docker_Hub_Password}"
+                withCredentials([string(credentialsId: 'Docker_Hub_Password', variable: 'PASS')]) {
+                    sh "echo ${PASS} | docker login -u abdul1992 --password-stdin"
                 }
-                sh "docker push abdul1992/login-service:${build_Number}"
+                sh "docker push abdul1992/login-service:${BUILD_NUMBER}"
             }
         }
-        stage('Remove Docker Image Locally In Jenkins')
-        {
-            steps
-            {
-                sh 'docker rmi abdul1992/login-service:${build_Number} '
+
+        stage('Remove Docker Image Locally In Jenkins') {
+            steps {
+                sh "docker rmi abdul1992/login-service:${BUILD_NUMBER}"
             }
         }
     }
