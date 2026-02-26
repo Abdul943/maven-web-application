@@ -41,5 +41,17 @@ pipeline {
                 sh "docker rmi abdul1992/login-service:${BUILD_NUMBER} || true"
             }
         }
+
+        stage('Deploy Application to Depoyment Server')
+        {
+          steps
+          {
+            sshagent(['DeploymentServer_SSH'])
+            {
+              sh "ssh -o StrictHostKeyChecking=no ubuntu@10.0.0.8 docker rm -f maven-container || true "    //deployment server privet ip
+              sh "ssh -o StrictHostKeyChecking=no ubuntu@10.0.0.8 docker run -d --name maven-container -p 8080:8080 abdul1992/login-service:${BUILD_NUMBER}"
+            }
+          }
+        }
     }
 }
