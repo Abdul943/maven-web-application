@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://44.208.29.46:9000/</sonar.host.url>
+		<sonar.host.url>http://98.81.200.59:9000/</sonar.host.url>
 		<sonar.login>squ_8e82bcd02d433bf5de6a21802e0e70638172f355</sonar.login>
 		<!-- <sonar.password>squ_8e82bcd02d433bf5de6a21802e0e70638172f355</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://98.86.163.137:9980/mithuntechnologies/repository/icicibank-releases/</url>
+	      <url>http://100.54.119.247:9980/mithuntechnologies/repository/icicibank-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://98.86.163.137:9980/mithuntechnologies/repository/icicibank-snapshot/</url>
+	      <url>http://100.54.119.247:9980/mithuntechnologies/repository/icicibank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
