@@ -11,7 +11,7 @@
 <body>
 <h1 align="center">Welcome to Gangavathi SweetHeartAsshu</h1>
 <h1 align="center">Phone Number: 8105363205</h1>
-<h1 align="center">AbdulAsmaHameed Technologies</h1>
+<h1 align="center">AbdulAsshuHameed Technologies</h1>
 
 <h1 align="center">Trainer Name: AbdulAsmaHameed</h1>
 
