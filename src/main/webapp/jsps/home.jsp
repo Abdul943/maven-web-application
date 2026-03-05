@@ -13,7 +13,7 @@
 <h1 align="center">Phone Number: +91 8105363205</h1>
 <h1 align="center">Mithun Technologies is a Very Good Training Center for Learning AWS DevOps, Jenkins, Docker, Kubernetes, GitOps, ArgoCD, Terraform and Amazon Web Services</h1>
 
-<h1 align="center">Trainer Name: Bhaskar Reddy Lacchannagari</h1>
+<h1 align="center">Trainer Name: Abdul Hameed Lacchannagari</h1>
 
 <hr>
 <br>
