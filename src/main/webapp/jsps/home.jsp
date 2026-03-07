@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">My Family is EveryThing For Me love U all</h1>
-<h1 align="center">Phone Number: 8105363205</h1>
+<h1 align="center">PHno: 8105363205</h1>
 <h1 align="center">AbdulHameed Technologies</h1>
 
 <h1 align="center">Trainer Name: AbdulHameed</h1>
