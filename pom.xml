@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://44.198.157.229:9980/mithuntechnologies/repository/sumiyah-releases/</url>
+	      <url>http://100.55.87.48:9980/mithuntechnologies/repository/abdul-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.198.157.229:9980/mithuntechnologies/repository/rukhiya-snapshot/</url>
+	      <url>http://100.55.87.48:9980/mithuntechnologies/repository/abdul-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
