@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://100.53.106.194:9980/mithuntechnologies/repository/abdul-release/</url>
+	      <url>http://44.203.232.148:9980/mithuntechnologies/repository/abdul-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://100.53.106.194:9980/mithuntechnologies/repository/abdul-snapshot/</url>
+	      <url>http://44.203.232.148:9980/mithuntechnologies/repository/abdul-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
