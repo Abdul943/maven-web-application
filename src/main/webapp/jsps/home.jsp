@@ -10,8 +10,8 @@
 </head>
 <body>
 <h1 align="center">I love Mylovely Family</h1>
-<h1 align="center">PHno: 8105363205</h1>
-<h1 align="center">AbdulHameed Technologies</h1>
+<h1 align="center">PhoneNumber: 8105363205</h1>
+<h1 align="center">AbdulHameed Technologies in Bangaluru</h1>
 
 <h1 align="center">Trainer Name: AbdulHameed</h1>
 
