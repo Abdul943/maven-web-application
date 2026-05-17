@@ -13,7 +13,7 @@
 <h1 align="center">PhoneNumber: 8105363205</h1>
 <h1 align="center">AbdulHameed Technologies in Bangaluru</h1>
 
-<h1 align="center">Trainer Name: AbdulHameed</h1>
+<h1 align="center">Trainer Name: AsmaBanuSheikh</h1>
 
 <hr>
 <br>
