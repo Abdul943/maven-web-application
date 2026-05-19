@@ -13,7 +13,7 @@
 <h1 align="center">PhoneNumber: 8105363205</h1>
 <h1 align="center">AbdulAsmaHameed Technologies in Bangaluru</h1>
 
-<h1 align="center">Trainer Name: AsmaBanuSheikh My Darling</h1>
+<h1 align="center">Trainer Name: Syeda Sumiyah My Darling</h1>
 
 <hr>
 <br>
