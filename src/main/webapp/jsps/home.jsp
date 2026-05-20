@@ -11,9 +11,9 @@
 <body>
 <h1 align="center">I Love My Family Every Single Movement </h1>
 <h1 align="center">PhoneNumber: 8105363205</h1>
-<h1 align="center">AbdulAsmaHameed Technologies in Bangaluru</h1>
+<h1 align="center">AbdulHameedSheikh Technologies in Bangaluru</h1>
 
-<h1 align="center">Trainer Name: Syeda Sumiyah My Darling</h1>
+<h1 align="center">Trainer Name: Syeda Sumiyah My Sweet Heart</h1>
 
 <hr>
 <br>
